@@ -25,6 +25,7 @@ Encodex/
    ```
 2. Open `index.html` in a web browser.
 3. Navigate through the platform and test different encryption techniques.
+4. Or you can easily open [Encodex Live](https://mohund.github.io/Encodex)
 
 ## Technologies Used
 - HTML, CSS, JavaScript
@@ -37,3 +38,8 @@ Contributions are welcome! Follow these steps:
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a Pull Request.
 
+
+## Images 
+![image](https://github.com/user-attachments/assets/8591bc06-a3d6-4d55-9583-228602058343)
+![image](https://github.com/user-attachments/assets/544fb25a-c274-40f9-aedc-9ff6ffc5cb04)
+![image](https://github.com/user-attachments/assets/d6e5b25f-6af7-4371-96dc-a745f12e563c)
