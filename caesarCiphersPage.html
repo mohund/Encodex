@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptCaesarCiphers.js" defer></script>
+    <title>Encodex</title>
+</head>
+<body>
+    
+  <header>
+        <a href="index.html" class="logo">Encodex</a>
+        <nav class="navigation">
+            <a href="transpositionCipherPage.html">transposition cipher</a>
+            <a href="caesarCiphersPage.html">Caesar ciphers</a>
+        </nav>
+    </header>
+
+
+    <section class="main-transpositionCipherPage">
+        <div class="description"><p>A Caesar Cipher is a type of substitution cipher in which each letter in the plaintext is shifted a 
+            certain number of places down or up the alphabet. This method is named after Julius Caesar, 
+            who used it to communicate with his generals. The encryption step performed by a Caesar cipher is often 
+            incorporated as part of more complex schemes, such as the Vigenère cipher.</p></div>
+        <div class="caesarCipherTool">
+            <h2>Caesar Cipher Tool</h2>
+            <p>Use the tool below to encrypt or decrypt a message using a Caesar Cipher. Enter the message and the key, then select the desired operation.</p>
+            <form>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                <label for="key">Key:</label><br>
+                <input type="text" id="key" name="key" required><br>
+                <label for="operation">Operation:</label><br>
+                <select id="operation" name="operation" required>
+                    <option value="encrypt">Encrypt</option>
+                    <option value="decrypt">Decrypt</option>
+                </select><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <p id="result" style="font-weight: bold; margin-top: 10px;"></p>
+         </div>
+         
+
+    </section>
+    
+</body>
+</html>

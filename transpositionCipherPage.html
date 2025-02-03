@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Encodex</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Encodex</a>
+        <nav class="navigation">
+            <a href="transpositionCipherPage.html">transposition cipher</a>
+            <a href="caesarCiphersPage.html">Caesar ciphers</a>
+        </nav>
+    </header>
+    <section class="main-transpositionCipherPage">
+        <div class="description">
+            <p>A Transposition Cipher is a type of enciphering technique that involves rearranging the letters of a
+                plaintext message without altering the letters themselves. This method is commonly used in newspapers
+                and puzzle magazines, where the message appears as a jumble of letters that can be relatively easy to
+                crack.</p>
+        </div>
+<!--     
+        <div class="excaesarCipher">
+            <h2>Example of a Transposition Cipher</h2>
+            <p>Agent X received a coded message from headquarters. The text read: <br><br>
+                <strong>"NIXASNTPISTXPOO"</strong><br><br>
+                Using the key <strong>4-3-1-5-2</strong>, he quickly rearranged the letters, revealing the hidden word. The message was clear—the mission was on. Without hesitation, he destroyed the evidence and disappeared into the night.
+            </p>
+            <br> 
+            <img src="img/EXCEL EXAMPLE-without.png" alt="Cipher Example">
+            <h2>The hidden word: <strong>TRANSPOSITION</strong></h2>
+        </div> -->
+
+        <div class="caesarCipherTool">
+            <h2>Transposition Cipher Tool</h2>
+            <p>Use the tool below to encrypt or decrypt a message using a transposition cipher. Enter the message and the key, then select the desired operation.</p>
+            <form>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                <label for="key">Key:</label><br>
+                <input type="text" id="key" name="key" required><br>
+                <label for="operation">Operation:</label><br>
+                <select id="operation" name="operation" required>
+                    <option value="encrypt">Encrypt</option>
+                </select><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <p id="result" style="font-weight: bold; margin-top: 10px;"></p>
+         </div>
+         
+
+    </section>
+    
+
+</body>
+
+</html>
